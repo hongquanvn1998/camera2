@@ -1,0 +1,64 @@
+html,body{
+	height: 100%;
+}
+.tttt{
+	width: 70%;
+	height: 100%;
+	border:1px solid #333333;
+	margin: auto;
+}
+.tab{
+	margin: auto;
+	border-collapse: collapse;
+	
+}
+.tab td{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	border: 1px solid #333333;
+}
+.pl-4{
+	padding-left: 30px;
+}
+.pt-4{
+	padding-top: 10px;
+}
+h6{
+	font-size: 16px;
+}
+h2{
+	text-align: center;
+}
+.fl-l{
+	float: left;
+	z-index: 100000;
+	width: 50%;
+	height: 180px;
+}
+.fl-r{
+	height: 180px;
+	width: 40%;
+	float: right;
+	z-index: 100000;
+	padding-right: 40px;
+}
+a{
+    z-index: 999999;
+    position: absolute;
+    bottom: 11%;
+    right: 20%;
+    text-decoration: none;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 600;
+	
+}
+a:hover{
+	color: #ffff;
+}
+/*.pp{
+	float: left;
+	width: 50%;
+	height: 100px;
+}*/

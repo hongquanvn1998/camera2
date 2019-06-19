@@ -1,0 +1,144 @@
+body{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+html{
+	font-family: Arial,HelveticaRoman;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #b6bdc6;
+}
+ul.dsh li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+	line-height: 80px;
+}
+img.avatar{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	float: left;
+	line-height: 80px;
+}
+ul.dsh li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul.dsh li a:hover{
+	color: #d33121;
+	text-decoration: none;
+}
+.content{
+	height:580px;
+	width: 100%;
+	flex:1;
+}
+.home{
+	height: 100%;
+	width: 100%;
+	background-image: url('photo-1557648945-96eb2fd19ad2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+table{
+	width: 100% !important;
+}
+.pagination{
+	margin: auto;
+}
+@media (min-width: 990px){
+	.lap-none{
+		display: none !important ; 
+	}
+}
+@media(max-width: 990px){
+	tr{
+		overflow-x: auto;
+	}
+	.container-fluid{
+		padding: 0 !important;
+	}
+	ul.dsh{
+		display: none !important ;
+	}
+	ul.ul-drop-right{
+	      margin: 0;
+	      padding: 0;
+	      list-style-type: none;
+	      background: #b6bdc6;
+	      display: none;
+	          display: block;
+		    position: absolute;
+		    width: 100%;
+		    z-index: 1000;
+		    top: 100%;
+	}
+
+	ul.ul-drop-right li {
+	      display:block;
+	     border-bottom: 1px solid #ffff;
+	}
+	ul.ul-drop-right ul.sub-ul-drop-right li {
+	      display: block;
+	      background: #e3e3e3;
+	}
+	ul.ul-drop-right li a {
+	      color: #fff !important;
+	      text-decoration: none;
+	      padding: 15px;
+	      display: block;
+	      font-size: 18px;
+	}
+	ul.ul-drop-right li i {
+	      color: #ffffff;
+	      float: right;
+	      /*padding-left: 20px;*/
+	      padding-top: 5%;
+	}
+
+	nav.menu-drop-right div {
+	      /*color: #292929;
+	      font-size: 24px;*/
+	      cursor: pointer;
+	      display: block;
+	      width: 100%;
+	}
+	nav.menu-drop-right div i{
+		float: right;
+		font-size: 28px;
+		color: #ffffff;
+		padding-top: 5%;
+		padding-right: 20%;
+	}
+}
+@media(min-width: 320px) and (max-width: 550px){
+	.col-3{
+		flex:0 0 33% !important;
+		max-width: 35% !important;
+	}
+	.col-9{
+		flex:0 0 67% !important;
+		max-width: 65% !important;
+	}
+	.header{
+		height: 100px;
+	}
+	nav.menu-drop-right div i{
+		padding-top: 15%;
+	}
+	ul.ul-drop-right{
+		top: 70%;
+	}
+	nav.menu-drop-right div i{
+		padding-right: 10%;
+	}
+}
+@media(max-width: 400px){
+	.pl-5, .px-5{
+		padding-left: 0 !important;
+	}
+}
